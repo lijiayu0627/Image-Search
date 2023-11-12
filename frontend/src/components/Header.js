@@ -9,7 +9,7 @@ const Header = (props) => {
     return (
         <Navbar style={navbarStyle}>
             <Container>
-                <Navbar.Brand href="/">{props.title}</Navbar.Brand>
+                <Navbar.Brand href='/'>{props.title}</Navbar.Brand>
             </Container>
         </Navbar>
     )
