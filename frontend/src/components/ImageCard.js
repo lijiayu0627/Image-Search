@@ -10,9 +10,11 @@ const ImageCard = ({ image, deleteImage, saveImage }) => {
       <Card.Body>
         <Card.Title>{image.title?.toUpperCase()}</Card.Title>
         <Card.Text>{image.description || image.alt_description}</Card.Text>
+        {image.saved && (
         <Button variant="primary" onClick={() => deleteImage(image.id)}>
           Delete
-        </Button>{' '}
+        </Button>
+        )}{' '}
         {!image.saved && (
         <Button variant="secondary" onClick={() => saveImage(image.id)}>
           Save
