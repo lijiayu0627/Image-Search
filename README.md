@@ -8,8 +8,8 @@ In order to utilize the Unsplash API and local database, users need to make a fi
 The format of the file `.env.local` is as follows:
 ```
 UNSPLASH_KEY = your-api-key
-MONGO_USERNAME = your-user-name
-MONGO_PASSWORD = your-password
+MONGO_USERNAME = root
+MONGO_PASSWORD = very-strong-db-password
 ```
 ## Example
 ### Search Images
