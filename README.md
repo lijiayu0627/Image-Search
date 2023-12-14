@@ -11,6 +11,7 @@ UNSPLASH_KEY = your-api-key
 MONGO_USERNAME = root
 MONGO_PASSWORD = very-strong-db-password
 ```
+Please obtain `your-api-key` from the Unsplash website.
 ## Example
 ### Search Images
 
