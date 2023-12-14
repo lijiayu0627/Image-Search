@@ -13,6 +13,9 @@ MONGO_PASSWORD = very-strong-db-password
 ```
 Please obtain `your-api-key` from the Unsplash website.
 ## Example
+### Welcome
+![image](https://github.com/lijiayu0627/images-gallery/blob/main/images/Welcome.png)
 ### Search Images
-
+![image](https://github.com/lijiayu0627/images-gallery/blob/main/images/example1.png)
 ### Save and Delete Images
+![image](https://github.com/lijiayu0627/images-gallery/blob/main/images/example2.png)
